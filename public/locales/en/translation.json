@@ -1,0 +1,21 @@
+{
+  "nav": ["About us", "Cars", "Category", "Contact us"],
+  "contact": "Contact us",
+  "buy-car": "Buy car",
+  "pay": "Pay in installments car",
+  "hero": [
+    "The modern Bestune T55 crossover was created on the basis of the charming B70 and released for comfortable travel around the city and off-road.",
+    "The car is equipped with light-alloy wheels 215/55 R17 of the manufacturer."
+  ],
+
+  "intro": [
+    "Turbocharged 1.5 engine with 169 horsepower and 169 hp. the car's engine changes separately in ECO, SPORT and Tiponic modes, which increases the level of adrenaline. Bestune T55 equipped with a 7-speed joystick gearbox",
+    "Engine with turbocharger 1.2 can give this car 142 horsepower and good dynamics. The engine can be operated in ECO and SPORT modes. Bestun T33 osnashchen 7-stepenchatoy korobkoy peredach DCT",
+    "The Bestune B70 is bigger in almost every way. The length of the third generation sedan is 4810 instead of 4800 mm, and the width has increased by 20 mm and reached 1840 mm. The wheelbase also added - 75 mm (up to 2800 mm). And only the height decreased - instead of 1472 it became 1455 mm."
+  ],
+  "collage": "WE TRY LIFE WITH CAR",
+  "contacts": ["Address", "Email", "Telfon"],
+  "name": "Name",
+  "tel": "Telfon",
+  "send": "send"
+}

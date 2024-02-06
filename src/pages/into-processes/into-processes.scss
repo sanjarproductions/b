@@ -1,0 +1,35 @@
+.process__main {
+  margin-top: 100px;
+}
+.process__title {
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+.process__form-content {
+  overflow: hidden;
+  margin-top: 100px;
+  margin-right: auto;
+}
+.process__form-title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.process__form {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 540px) {
+  .process__title {
+    font-size: 30px;
+  }
+
+  .process__form-title {
+    font-size: 20px;
+  }
+  .process__form-content {
+    margin-top: 40px;
+  }
+}

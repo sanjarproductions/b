@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;500;600&family=Prata&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="FAW Bestune T55,B70,T99
+    Rasman Bestune brendi O'zbekistonda!
+    Avtosalon: @bestune_hongqi
+    Rasman 3 yil yoki 100 000km kafolat
+    Ehtiyot qismlar va Servis bor"
+      data-rh="true"
+    />
+    <link rel="stylesheet" href="./src/index.scss" />
+    <meta
+      name="google-site-verification"
+      content="tN75AC7hB67H1w1FvcVWSKlwLhKEApu17E1yvQFd0zw"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Bestune Uzbekistan</title>
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      })(window.location);
+    </script>
+  </head>
+  <body>
+    <h1 class="visually-hidden">Rasman Bestune uz brendi O'zbekistonda</h1>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+.slider-index {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.slider-index > span {
+  display: inline-block;
+  margin: 0 5px;
+  width: 91.5px;
+  height: 1px;
+  background-color: #fff;
+}
+.slider-index-black {
+  margin-right: 0px;
+}
+.slider-index-black > span {
+  background-color: #000;
+}
+
+@media screen and (max-width: 469px) {
+  .slider-index > span {
+    width: 50px;
+  }
+}

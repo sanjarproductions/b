@@ -1,0 +1,20 @@
+{
+  "nav": ["Biz haqimizda", "Avtomobillar", "Kategoriya", "Bog`lanish"],
+  "contact": "Biz bilan bog'lanish",
+  "buy-car": "Avtomobil sotib oling",
+  "pay": "Avtomobilni bo'lib to'lash",
+  "hero": [
+    "Zamonaviy Bestune T55 krossoveri maftunkor B70 negizida yaratilgan bo'lib, shahar bo'ylab va yo'ldan tashqarida qulay sayohat qilish uchun chiqarilgan.",
+    "Avtomobil ishlab chiqaruvchining 215/55 R17 yengil qotishma g'ildiraklari bilan jihozlangan."
+  ],
+  "intro": [
+    "169 ot kuchi va 169 ot kuchiga ega 1,5 turbinali dvigatel. avtomobil dvigateli ECO, SPORT va Tiponic rejimlarida alohida o‘zgaradi, bu esa adrenalin darajasini oshiradi. Bestune T55 7 bosqichli joystik uzatmalar qutisi bilan jihozlangan",
+    "Dvigatel s turbonadduvom 1,2 bu avtomobilga 142 loshadinye sily va darit bogatuyu dinamiku vydavat mumkin. Dvigatel avtomobilya ECO va SPORT rejimlarida ishlash mumkin. Bestun T33 osnashchen 7-stupenchatoy korobkoy peredach DCT",
+    "Bestune B70 stal krupnee pochti vo vseh napravleniyax. Dlina sedana tretey generatsii sostavlyaet 4810 vmesto 4800 mm, a shirina uvelichilas na 20 mm va dostigla 1840 mm. Kolyosnaya baza ham pribavila — 75 mm (2800 mm gacha). I tolko vysota umenshilas — vmesto 1472 stalo 1455 mm."
+  ],
+  "collage": "BIZ HAYOTNI MOSHINA BILAN SINAYAMIZ",
+  "contacts": ["Manzil", "Elektron pochta", "Telfon"],
+  "name": "Ism",
+  "tel": "Telefon",
+  "send": "yuborish"
+}

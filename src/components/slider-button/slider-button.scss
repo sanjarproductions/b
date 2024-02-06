@@ -1,0 +1,34 @@
+.slider-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  transition: color 0.3s, background-color 0.3s;
+}
+.slider-button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.slider-button:nth-child(2) {
+  margin-left: 10px;
+}
+
+.slider-screen__button {
+  margin-top: 10px;
+  border: 1px solid #000;
+}
+.slider-screen__button:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+@media screen and (max-width: 469px) {
+  .slider-button {
+    width: 30px;
+    height: 30px;
+  }
+}

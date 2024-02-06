@@ -1,0 +1,137 @@
+.collage {
+  padding-top: 290px;
+  overflow: hidden;
+}
+
+.collage__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.collage__title {
+  max-width: 579px;
+
+  & h2 strong {
+    font-weight: 500;
+  }
+  & > h2 {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+
+    font-size: 80px;
+    line-height: 1.2;
+  }
+}
+.collage__span {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: #eb1616;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.collage__img3 {
+  transform: translateY(-126px);
+}
+
+@media screen and (max-width: 1304px) {
+  .collage__inner {
+    gap: 20px;
+  }
+  .collage__img3 {
+    transform: translateY(-100px);
+  }
+  .collage__img2 {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 1152px) {
+  .collage__img1,
+  .collage__img3,
+  .collage__img4 {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .collage__img1,
+  .collage__img3,
+  .collage__img4 {
+    width: 240px;
+  }
+  .collage__img2 {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .collage {
+    padding-top: 100px;
+  }
+  .collage__inner {
+    @apply grid grid-cols-2;
+  }
+  .collage__title {
+    @apply col-span-2;
+  }
+  .collage__title > h2 {
+    font-size: 100px;
+  }
+  .collage__span {
+    width: 100px;
+    height: 100px;
+  }
+  .collage__img1 {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+  }
+  .collage__img2 {
+    width: auto;
+  }
+  .collage__img3 {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    transform: translateY(0);
+  }
+  .collage__img4 {
+    width: auto;
+    transform: translateY(-30%);
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .collage__title > h2 {
+    font-size: 70px;
+  }
+  .collage__span {
+    width: 60px;
+    height: 60px;
+  }
+  .collage__img4 {
+    width: auto;
+    transform: translateY(-50%);
+  }
+}
+@media screen and (max-width: 400px) {
+  .collage__title > h2 {
+    font-size: 50px;
+  }
+  .collage__span {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 275px) {
+  .collage__title > h2 {
+    font-size: 40px;
+  }
+  .collage__span {
+    width: 30px;
+    height: 30px;
+  }
+}

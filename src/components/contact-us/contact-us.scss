@@ -1,0 +1,104 @@
+.contact-us {
+  overflow: hidden;
+  margin-top: 116px;
+  padding-top: 60px;
+  padding-bottom: 43px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.contact-us__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.contact-us__list {
+  max-width: 589px;
+}
+
+.contact-us__item + .contact-us__item {
+  margin-top: 10px;
+}
+
+.contact-us__item > h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.contact-us__item a {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  transition: opacity 0.4s;
+}
+.contact-us__item a:hover {
+  opacity: 0.7;
+}
+.contact-us__from {
+  max-width: 600px;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+.contact-us__input + .contact-us__input {
+  margin-top: 27px;
+}
+.contact-us__input {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 40px;
+  padding: 30px 20px 30px 60px;
+}
+.contact-us__button {
+  height: auto;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #151313 !important;
+  background-color: #151313 !important;
+  width: 100%;
+  border-radius: 40px;
+  margin-top: 47px;
+  transition: color 0.4s, background-color 0.4s;
+}
+.contact-us__button:hover {
+  color: #151313 !important;
+  background-color: #fff !important;
+}
+.contact-us__link:nth-child(2) {
+  margin-right: 20px;
+}
+@media screen and (max-width: 1065px) {
+  .contact-us__inner {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .contact-us__input {
+    border-radius: 30px;
+    padding: 20px 20px 20px 40px;
+  }
+  .contact-us__button {
+    padding: 20px;
+
+    border-radius: 30px;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .contact-us__input {
+    border-radius: 30px;
+    padding: 15px;
+  }
+  .contact-us__button {
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 25px;
+  }
+}
